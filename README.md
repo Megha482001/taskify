@@ -4,10 +4,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 Taskify is a sleek and modern Todo List Web App built using the latest Next.js 15 App Router architecture, combined with robust state management via Redux and persistent storage powered by Redux Persist. Styled with shadcn/ui, the app delivers a clean, responsive, and accessible user experience.
 
 ## tech stack
-- **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
+- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
 - **Language**: TypeScript
 - **State Management**: Redux Toolkit + Redux Persist
-- **Styling**: Tailwind CSS + Custom Themes
+- **Styling**: Tailwind CSS + shadcn/ui
 - **Fonts**: Geist & Geist Mono (Google Fonts)
 - **Dark Mode**: Fully supported with system preference detection
 
