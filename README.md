@@ -1,24 +1,38 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Taskify
+Taskify is a sleek and modern Todo List Web App built using the latest Next.js 15 App Router architecture, combined with robust state management via Redux and persistent storage powered by Redux Persist. Styled with shadcn/ui, the app delivers a clean, responsive, and accessible user experience.
 
-First, run the development server:
+## tech stack
+- **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
+- **Language**: TypeScript
+- **State Management**: Redux Toolkit + Redux Persist
+- **Styling**: Tailwind CSS + Custom Themes
+- **Fonts**: Geist & Geist Mono (Google Fonts)
+- **Dark Mode**: Fully supported with system preference detection
 
+## Features
+- Add, complete, and manage to-do tasks
+- Dark mode toggle support
+- Persistent state with Redux Persist
+- Fast and modern UI using Tailwind CSS
+- Modular component structure
+- Custom theme colors using `oklch` color space
+
+## Install Dependencies
+```bash
+npm install
+```
+## Run
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Visit http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## High-Level Architecture
+**State Management**: 
+- The todos are stored as redux slice in redux, we define reducers to manipulate the todos array.
+- To persist the todos array so that it is not deleted on refresh , we use redux persist to store  them.
 
 ## Learn More
 
